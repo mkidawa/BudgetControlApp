@@ -243,6 +243,7 @@ var controller = (function(budgetCtrl,UICtrl) {
             // 5. Calculate and update the budget
             updateBudget();
             // 6. Display the budget on the UI
+            updatePercentages();
         }
        
     };
